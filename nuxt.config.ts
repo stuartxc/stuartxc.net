@@ -12,4 +12,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  override: true,
+  // components: { global: true, dirs: ["~/components"]},
 })
